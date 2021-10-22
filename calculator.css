@@ -1,0 +1,49 @@
+.calculator {
+  width: 500px;
+  height: 600px;
+  border: 1px solid black;
+  margin: 150px auto;
+  background-color: gray;
+}
+
+.cal-name {
+  width: 490px;
+  height: 60px;
+  background-color: black;
+  margin-left: 5px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.cal-name p {
+  color: white;
+  font-size: x-large;
+  margin-left: 170px;
+}
+
+.display {
+  width: 490px;
+  height: 60px;
+  background-color: white;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.button-container-main {
+  width: 490px;
+  height: 400px;
+  background-color: grey;
+  margin-left: 5px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  vertical-align: 100px;
+  justify-content: space-around;
+}
+.button-container .button {
+  margin-top: 10px;
+  width: 110px;
+  height: 60px;
+  border: 1px solid black;
+  background-color: white;
+}
